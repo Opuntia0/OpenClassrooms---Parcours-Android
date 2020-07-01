@@ -5,10 +5,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.annotation.Nullable;
-import android.support.design.widget.TextInputEditText;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import com.google.android.material.textfield.TextInputEditText;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageButton;
@@ -32,7 +32,6 @@ import com.openclassrooms.firebaseoc.base.BaseActivity;
 import com.openclassrooms.firebaseoc.models.Message;
 import com.openclassrooms.firebaseoc.models.User;
 
-import java.util.List;
 import java.util.UUID;
 
 import butterknife.BindView;

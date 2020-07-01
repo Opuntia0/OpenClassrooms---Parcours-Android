@@ -1,6 +1,6 @@
 package com.openclassrooms.firebaseoc.models;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /**
  * Created by Philippe on 30/01/2018.
